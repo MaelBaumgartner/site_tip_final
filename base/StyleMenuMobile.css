@@ -1,0 +1,23 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background-image: url(images/FondMobile.png);
+}
+
+#TitreMenu{
+    font-family: Verdana, Arial, sans-serif;
+    Font-size: 100px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: lightblue;
+}
+
+#FondCentre img{
+    float: left;
+    margin: 15px;
+    display: block;
+}

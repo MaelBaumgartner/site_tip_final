@@ -1,0 +1,136 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background: #C9C9C9;
+}
+
+#FondDroite{
+    height: 1068px;
+    width: 377px;
+    background-image: url(Images/FondDroite.png);
+    position: absolute;
+    top: 2px;
+    right: calc(50% - 945px);
+    margin-top : auto;
+    margin-bottom: auto;
+    z-index: 1;
+}
+
+#FondGauche{
+    height: 1068px;
+    width: 377px;
+    background-image: url(Images/FondGauche.png);
+    position: absolute;
+    top: 2px;
+    left: calc(50% - 945px);
+    margin-top : auto;
+    margin-bottom: auto;
+    z-index: 1;
+}
+
+#titreMenu{
+    display: block;
+    width: 1139px;
+    Margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 60px;
+    font-family: Verdada, Arial, sans-serif;
+    animation: couleurs 15s infinite linear;
+
+}
+
+#FondCentre{
+    width: 1139px;
+    height: 1068px;
+    background-image:url(Images/FondCentre.png);
+    display: block;
+    position: relative;
+    top: 0px;
+    margin: auto;
+    z-index: 1;
+}
+
+#Tabelette{
+    position: absolute;
+    top: 419px;
+    left: 546px;
+}
+
+#Loupe{
+    position: absolute;
+    top: 311px;
+    left: 2px;
+    z-index: 4;
+}
+
+#SmartphoneBlanc{
+    position: absolute;
+    top: 511px;
+    left: 45px;
+}
+
+#SmartphoneNoir{
+    position: absolute;
+    top: 293px;
+    left: 236px;
+}
+
+#Ordi{
+    position: absolute;
+    top: 704px;
+    left: 321px;
+}
+
+#Storage{
+    position: absolute;
+    top: 667px;
+    left: 979px;
+}
+
+#Serveur{
+    position: absolute;
+    top: 345px;
+    left: 931px;
+}
+
+#FondCentre img:hover{
+    transition: .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+#FondCentre img{
+    transition: .2s ease-in-out;
+    transform: scale(1);
+    z-index: 3;
+}
+
+@keyframes couleurs {
+    
+  from {
+	color: red;
+  }
+    
+  25% {
+	color: blue; 
+  }
+    
+  50% {
+	color: green;
+  }
+    
+  75% {
+	color: yellow;
+  } 
+    
+  to {
+	color: red;
+  }
+}
+

@@ -1,0 +1,35 @@
+html{
+    background: dimgray;
+}
+
+#menu li a{
+    width: 85px;
+}
+
+nav{
+    position: absolute;
+    left: calc(50% - 297.5px);
+}
+
+#contenu{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    padding: 0px 10px 140px 10px;
+    width: calc(100vw - );
+}
+
+#NomSite {
+    position:absolute;
+    left: 165px;
+    top: -10px;
+    font-size: 55;
+}
+
+header{
+    width: 100vw;
+}
+
+.MenuMobile{
+    display: none;
+}
