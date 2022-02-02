@@ -15,4 +15,13 @@
 	$data[1]['reponses'][1]['enonce'] = "faux";
 	$data[1]['reponses'][1]['juste'] = true;
 	
+	$data[2]['question'] = "Parmi cette liste, lequel n'est pas un malware ?";
+	$data[3]['reponses'][0]['enonce'] = "Cheval de Troie";
+	$data[2]['reponses'][0]['juste'] = false;
+	$data[2]['reponses'][1]['enonce'] = "Ver";
+	$data[2]['reponses'][1]['juste'] = false;
+	$data[2]['reponses'][2]['enonce'] = "Lapin";
+	$data[2]['reponses'][2]['juste'] = true;
+
+	
 ?>
