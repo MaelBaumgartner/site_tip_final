@@ -3,19 +3,19 @@ html, body{
     padding: 0px;
 }
 
-html{
+/*html{
     background-image: url(Images/FondPage.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
+}*/
 
 
 #contenu{
     position: absolute;
     top: 180px;
-    left: calc(50% - 350px);
-    width: 700px;
+    left: calc(50% - 450px);
+    width: 900px;
     background: #B4C7E7;
     padding: 10px 10px 170px 10px;
     text-align: left;
