@@ -4,7 +4,7 @@ html, body{
 }
 
 html{
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(0, 144, 163);
 }
 
 
@@ -13,14 +13,14 @@ html{
     top: 180px;
     left: calc(50% - 450px);
     width: 900px;
-    background: #B4C7E7;
+    background: #00D4F0;
     padding: 10px 10px 170px 10px;
     text-align: left;
     box-sizing: border-box;
 }
 
 #contenu h1{
-    color: red;
+    color: #FF7E1C;
     text-transform: uppercase;
     font-weight: bold;
     font-family: Verdana, Arial, sans-serif;
@@ -29,6 +29,16 @@ html{
 #contenu img{
     width: 300px;
     height: auto;
+}
+
+.button{
+    text-align: center;
+    display: inline-block;
+}
+
+.horizontal-center{
+    width: 100%;
+    text-align: center;
 }
 
 #contenu figcaption{
@@ -40,25 +50,26 @@ html{
 
 #contenu figure{
     float:right;
-    margin: 10px
+    margin: 10;
 }
 
-header{
-    position: relative;
-    left: calc(50% - 450);
-    top: 0px;
-    width: 900px;
-    height: 100px;
+p{
+    color : black;
+    font-size: 2.5ch;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 #NomSite{
     font-family: Verdana, Arial, sans-serif;
     font-size: 70px;
-    position: absolute;
-    top: calc(50% - 80px);
-    width: 100%;
-    color: rgb(216, 216, 216);
-    /*animation: couleurs 15s infinite linear;  = RGB*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 20px;
+    color: #F06A00;
+    /*animation: couleurs 15s infinite linear;*/
 }
 
 @keyframes couleurs {
