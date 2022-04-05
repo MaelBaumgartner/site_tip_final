@@ -1,3 +1,7 @@
+<?php
+  session_start();
+?>
+
 <doctype html>
   <html lang="fr">
 
@@ -33,7 +37,7 @@
       <h1 style="text-align: center;">Bienvenue</h1>
       <p>Vous allez participer à un quiz </p>
       <div class="horizontal-center">
-        <a href="">
+        <a href="./page_questions.php">
           <button class="button button1">Commencer</button>
         </a>
       </div>
