@@ -68,39 +68,6 @@ Ce site a pour but de vous informer et de vous sur ce fléau et ainsi vous aider
 
     </div>
 
-
-
-    <nav class="main-navigation" class="MenuMobile">
-      <div class="nav-wrapper">
-        <input type="checkbox" class="menu-checkbox" id="menu_checkbox" />
-        <label for="menu_checkbox" class="menu-toggle"></label>
-        <ul class="menu">
-          <li class="EnTete"><a href="">ACCUEIL</a></li>
-          <li class="EnTete">NOUS</li>
-          <li><a href="">&emsp;&emsp;Ludovic Charpié</a></li>
-          <li><a href="">&emsp;&emsp;Erwan Bane</a></li>
-          <li><a href="">&emsp;&emsp;Contact</a></li>
-          <li class="EnTete">LE METIER</li>
-          <li><a href="">&emsp;&emsp;Description</a></li>
-          <li><a href="">&emsp;&emsp;Plan d'études</a></li>
-          <li class="EnTete">PROJETS</li>
-          <li><a href="">&emsp;&emsp;Miner</a></li>
-          <li><a href="">&emsp;&emsp;Kebab</a></li>
-          <li><a href="">&emsp;&emsp;Activités</a></li>
-          <li class="EnTete">LE CEFF</li>
-          <li><a href="">&emsp;&emsp;Présentation globale</a></li>
-          <li><a href="">&emsp;&emsp;Cafétéria</a></li>
-          <li class="EnTete">MODULES</li>
-          <li><a href="">&emsp;&emsp;Développement d'applications</a></li>
-          <li><a href="">&emsp;&emsp;Développement web</a></li>
-          <li><a href="">&emsp;&emsp;Système / réseau</a></li>
-          <li><a href="">&emsp;&emsp;Gestion PC / logiciels</a></li>
-          <li><a href="">&emsp;&emsp;Travail en entreprise</a></li>
-          <li class="EnTete"><a href="">GALERIE</a></li>
-        </ul>
-      </div>
-    </nav>
-
   </body>
 
   </html>
