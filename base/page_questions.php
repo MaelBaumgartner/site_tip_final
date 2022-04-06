@@ -16,13 +16,13 @@
 		$_SESSION['question']['num_question'] = 0;
 		
 		echo "<h3>Question " . ($_SESSION['question']['num_question'] + 1) . "</h3>";
-		echo "<p>" . $tab[$_SESSION['question']['num_question']]['question'] . "</p>";
+		echo "<p>" . $data[$_SESSION['question']['num_question']]['question'] . "</p>";
 		
-		echo "<form method=\"post\" action=\"" . $_SERVER['PHP_SELF'] . "\">";
+		echo "<form method=\"post\" action=\"" . $_SERVER['PHP_SELF'] . "\" id=\"question_form\">"; //
 		
-		echo "<input type =\"radio\" name=\"answer\" value =\"A\" checked=\"checked\">" . $tab[$_SESSION['question']['num_question']]['reponses'][0]['enonce'] . "</input><br>";
-		echo "<input type =\"radio\" name=\"answer\" value =\"B\">" . $tab[$_SESSION['question']['num_question']]['reponses'][1]['enonce'] . "</input><br>";
-		echo "<input type =\"radio\" name=\"answer\" value =\"C\">" . $tab[$_SESSION['question']['num_question']]['reponses'][2]['enonce'] . "</input><br>";
+		echo "<input type =\"radio\" name=\"answer\" value =\"A\" checked=\"checked\">" . $data[$_SESSION['question']['num_question']]['reponses'][0]['enonce'] . "</input><br>";
+		echo "<input type =\"radio\" name=\"answer\" value =\"B\">" . $data[$_SESSION['question']['num_question']]['reponses'][1]['enonce'] . "</input><br>";
+		echo "<input type =\"radio\" name=\"answer\" value =\"C\">" . $data[$_SESSION['question']['num_question']]['reponses'][2]['enonce'] . "</input><br>";
 		echo "<input type=\"submit\" name=\"submit\" value=\"Question suivante\">";
 		echo "</form>";
 		echo "<pre>";
@@ -35,14 +35,14 @@
 		}
 		
 		echo "<h3>Question " . ($_SESSION['question']['num_question'] + 1) . "</h3>";
-		echo "<p>" . $tab[$_SESSION['question']['num_question']]['question'] . "</p>";
+		echo "<p>" . $data[$_SESSION['question']['num_question']]['question'] . "</p>";
 		
 		echo "<form method=\"post\" action=\"" . $_SERVER['PHP_SELF'] . "\">";
 		
-		echo "<input type =\"radio\" name=\"answer\" value =\"A\" checked=\"checked\">" . $tab[$_SESSION['question']['num_question']]['reponses'][0]['enonce'] . "</input><br>";
-		echo "<input type =\"radio\" name=\"answer\" value =\"B\">" . $tab[$_SESSION['question']['num_question']]['reponses'][1]['enonce'] . "</input><br>";
-		if(isset($tab[$_SESSION['question']['num_question']]['reponses'][2])){
-			echo "<input type =\"radio\" name=\"answer\" value =\"C\">" . $tab[$_SESSION['question']['num_question']]['reponses'][2]['enonce'] . "</input><br>";
+		echo "<input type =\"radio\" name=\"answer\" value =\"A\" checked=\"checked\">" . $data[$_SESSION['question']['num_question']]['reponses'][0]['enonce'] . "</input><br>";
+		echo "<input type =\"radio\" name=\"answer\" value =\"B\">" . $data[$_SESSION['question']['num_question']]['reponses'][1]['enonce'] . "</input><br>";
+		if(isset($data[$_SESSION['question']['num_question']]['reponses'][2])){
+			echo "<input type =\"radio\" name=\"answer\" value =\"C\">" . $data[$_SESSION['question']['num_question']]['reponses'][2]['enonce'] . "</input><br>";
 		}
 		echo "<input type=\"submit\" name=\"submit\" value=\"Question suivante\">";
 		echo "</form>";
@@ -51,21 +51,6 @@
 		if(isset($_POST['answer'])){
 			$_SESSION['question']['answers'][$_POST['answer']]++;
 		}
-	}else{
-		$resultat = $_SESSION['question']['answers']['A'];
-		$label = 'A';
-		if($_SESSION['question']['answers']['B'] > $resultat){
-			$resultat = $_SESSION['question']['answers']['B'];
-			$label = 'B';
-		}else if($_SESSION['question']['answers']['C'] > $resultat){
-			$resultat = $_SESSION['question']['answers']['C'];
-			$label = 'C';
-		}
-		echo "<h3>Résultat du test</h3>";
-		echo "<p>" . $_SESSION['question']['name'] . ", Vous avez obtenu un maxium de " . $label . "</p>";
-		echo "<h2>" . $tab['resultat'][$label]['titre'] ."</h2>";
-		echo "<p>" . $tab['resultat'][$label]['details'] ."</p>";
-		
 	}
 ?>
 <a href="destroy.php">Destroy</a>
