@@ -54,6 +54,7 @@
 	}
 ?>
 <a href="destroy.php">Destroy</a>
+
 </div>
 </body>
 </html>
