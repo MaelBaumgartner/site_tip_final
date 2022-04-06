@@ -19,7 +19,7 @@ html{
     box-sizing: border-box;
 }
 
-#contenu h1{
+#contenu h1, #contenu h2{
     color: #FF7E1C;
     text-transform: uppercase;
     font-weight: bold;
