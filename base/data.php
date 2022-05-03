@@ -1,8 +1,8 @@
 <?php
 	$data = array();
 	
-	$data[0]['question'] = "Vous recevez un email qui vous dit que vous avez gagné à un concours mais que vous devez payer pour avoir vos gains. Que faites vous ?";
-	$data[0]['reponses'][0]['enonce'] = "Ignore l'Email.";
+	$data[0]['question'] = "Vous recevez un email vous disant que vous avez gagné à un concours mais que vous devez payer pour avoir vos gains. Que faites vous ?";
+	$data[0]['reponses'][0]['enonce'] = "Vous ignorez l'email";
 	$data[0]['reponses'][0]['juste'] = true;
 	$data[0]['reponses'][1]['enonce'] = "Vous donnez l'argent qu'ils veulent en espèrant recevoir les gains";
 	$data[0]['reponses'][1]['juste'] = false;
@@ -38,12 +38,12 @@
 	$data[4]['reponses'][1]['enonce'] = "Le plus souvent, c'est un mail publicitaire pour promouvoir un site usurpé";
 	$data[4]['reponses'][1]['juste'] = true;
 	
-	$data[5]['question'] = "Une arnaque de type \"phishing\" ou hameçonnage en français est basé sur ?";
-	$data[5]['reponses'][0]['enonce'] = "Kidnapping d'anfants";
+	$data[5]['question'] = "Une arnaque de type \"phishing\" ou \"hameçonnage\" en français est basée sur ?";
+	$data[5]['reponses'][0]['enonce'] = "Le kidnapping d'anfants";
 	$data[5]['reponses'][0]['juste'] = false;
 	$data[5]['reponses'][1]['enonce'] = "Du chantage de documents frauduleux";
 	$data[5]['reponses'][1]['juste'] = false;
-	$data[5]['reponses'][2]['enonce'] = "une confiance trop facilement donnée à une tierce personne afin qu'elle donne ses informations privées";
+	$data[5]['reponses'][2]['enonce'] = "Une confiance trop facilement donnée à une tierce personne afin qu'elle donne ses informations privées";
 	$data[5]['reponses'][2]['juste'] = true;
 	
 	$data[6]['question'] = "Vous recevez un mail écrit en français avec une orthographe basse qualité et un vocabulaire très limité, penseriez-vous que ce mail est \"officiel\" ?";
@@ -52,7 +52,7 @@
 	$data[6]['reponses'][1]['enonce'] = "Non";
 	$data[6]['reponses'][1]['juste'] = false;
 	
-	$data[7]['question'] = "Qu'est-ce qui fait un bon mot-de-passe ?";
+	$data[7]['question'] = "Qu'est-ce qui fait un bon mot de passe ?";
 	$data[7]['reponses'][0]['enonce'] = "Une majuscule minimum, une minuscule minimum, plus de 8 caractères avec au moins un chiffre et un caractère spécial";
 	$data[7]['reponses'][0]['juste'] = true;
 	$data[7]['reponses'][1]['enonce'] = "Mettre votre date de naissance";
@@ -63,15 +63,14 @@
 	$data[8]['reponses'][0]['juste'] = true;
 	$data[8]['reponses'][1]['enonce'] = "Mettre vos données personnelles sur les sites de confiance et toujours utiliser le même mot-de-passe afin de s'en rappeler plus facilement";
 	$data[8]['reponses'][1]['juste'] = false;
-	$data[8]['reponses'][2]['enonce'] = "Inventer un faux prénom et un faux nom à entrer sur des sites internet";
+	$data[8]['reponses'][2]['enonce'] = "Inventer un faux prénom et un faux nom à entrer sur les sites internet";
 	$data[8]['reponses'][2]['juste'] = false;
 	
-	$data[9]['question'] = "Si vous vous faites arnaquer par une personne sur internet, que devez-vous faire en priorité ?";
+	$data[9]['question'] = "Si vous vous faites arnaquer sur internet, que devriez-vous faire en priorité ?";
 	$data[9]['reponses'][0]['enonce'] = "Eteindre votre ordinateur le plus vite possible et attendre";
 	$data[9]['reponses'][0]['juste'] = false;
 	$data[9]['reponses'][1]['enonce'] = "Appeler la police et porter plainte";
 	$data[9]['reponses'][1]['juste'] = false;
-	$data[9]['reponses'][2]['enonce'] = "Faire opposition sur votre carte bancaire si vous en avez une et changer tous vos mots-de-passe";
+	$data[9]['reponses'][2]['enonce'] = "Faire opposition sur votre carte bancaire si vous en avez une et changer tous vos mots de passe";
 	$data[9]['reponses'][2]['juste'] = true;
-	
 ?>
